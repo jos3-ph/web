@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixelarte</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="web_5_contacto.css">
+    <link rel="icon" href="imagenes/icono_Mesa de trabajo 1.png">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="web_1_inicio.html"><img src="imagenes/logo_Mesa de trabajo 1.png" alt="Logo de Pixelarte" class="logo"></a>
+            <ul>
+                <li><a href="web_1_inicio.html">Inicio</a></li>
+                <li><a href="web_2_nosotros.html">Nosotros</a></li>
+                <li><a href="web_3_productos.html">Productos</a></li>
+                <li><a href="web_4_clientes.html">Clientes</a></li>
+                <li><a href="web_5_contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="registro-section">
+            <div class="registro-container">
+                <h1 class="registro-title">¡Vamos a comunicarnos!</h1>
+                <p class="registro-subtitle">¡Regístrate para obtener más información y actualizaciones!</p>
+                <form action="https://formspree.io/f/mjkvrewl" method="POST" class="registro-form">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" name="nombre" id="nombre" placeholder="Ingresa tu nombre y apellido" required>
+                    
+                    <label for="email">Correo Electrónico</label>
+                    <input type="email" name="email" id="email" placeholder="nombre@ejemplo.com" required>
+                    
+                    <label for="sexo">Sexo</label>
+                    <div class="sexo-container">
+                        <label for="masculino">Hombre
+                            <input type="radio" id="masculino" name="sexo" value="hombre" checked>
+                        </label>
+                        <label for="femenino">Mujer
+                            <input type="radio" id="femenino" name="sexo" value="mujer">
+                        </label>
+                    </div>
+
+                    <label for="fnac">Fecha de Nacimiento</label>
+                    <input type="date" name="fnac" id="fnac" required>
+                    
+                    <input type="submit" value="Enviar" class="boton-enviar">
+                </form>
+            </div>
+
+           
+            <div class="imagen-seccion">
+                <img src="imagenes/fondo3.jpg" alt="Imagen de Pixelarte" class="imagen-registro">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="contenedor-pie">
+            <div class="fila-pie">
+                <div class="item-pie">
+                    <h3>Contacto</h3>
+                    <ul>
+                        <li><strong>Teléfono:</strong> +51 123 456 789</li>
+                        <li><strong>Correo:</strong> contacto@pixelarte.com</li>
+                        <li><strong>Horario:</strong> Lunes a Viernes: 9:00 AM - 6:00 PM</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    

@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+}
+h1, h2, h3, p {
+    margin-bottom: 10px;
+}
+h4{
+    font-size: 35px;    
+}
+.seccion-productos {
+    padding: 20px;
+    text-align: center;
+}
+.titulo-productos {
+    font-size: 36px;
+    color: #333;
+}
+.descripcion-productos {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 40px;
+}
+.categoria-productos {
+    margin-bottom: 40px;
+}
+.categoria-productos h2 {
+    font-size: 28px;
+    color: #444;
+    margin-bottom: 20px;
+    text-align: center; 
+}
+.producto {
+    display: inline-block;
+    width: 30%;  
+    margin-right: 5px;  
+    vertical-align: top;
+    background-color: #fff;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: left; 
+    overflow: hidden;  
+    position: relative; 
+}
+.producto img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;  
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+.producto h3 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;  
+}
+.producto p {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.5;
+}
+.categoria-productos {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 5px;  
+}
+@media (max-width: 768px) {
+    .producto {
+        width: 48%;
+    }
+}
+@media (max-width: 480px) {
+    .producto {
+        width: 100%;
+    }
+}
+.seccion-noticias {
+    padding: 20px;  
+    background-color: #f8f8f8;
+    margin-top: 40px;
+}
+.titulo-noticias {
+    font-size: 32px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;  
+}
+.item-noticia {
+    background-color: #fff;
+    padding: 15px;  
+    margin-bottom: 20px;  
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.item-noticia-titulo {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+.item-noticia p {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.5;
+}

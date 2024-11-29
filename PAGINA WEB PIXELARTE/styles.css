@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    padding-top: 90px; 
+}
+header {
+    background-color: #ffffff; 
+    padding: 1rem 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; 
+}
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+header .logo {
+    height: 70px; 
+}
+header ul {
+    list-style: none;
+    display: flex;
+    gap: 30px; 
+}
+header ul li a {
+    color: #000000; 
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease; 
+}
+header ul li a:hover {
+    color: #f4d03f; 
+}
+footer {
+    background-color: #003366; 
+    color: #ffffff;
+    text-align: center;
+    padding: 2rem 1rem;
+    margin-top: 2rem;
+}
+
+footer .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+footer .footer-row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1.5rem; 
+}
+
+footer .footer-item {
+    flex: 1;
+    min-width: 250px;
+}
+
+footer .footer-item h3 {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    color: #f4d03f; 
+}
+
+footer .footer-item ul {
+    list-style: none;
+}
+
+footer .footer-item ul li {
+    margin-bottom: 0.5rem;
+    color: #ffffff;
+}
+
+footer .footer-item ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    transition: color 0.3s; 
+}
+
+footer .footer-item ul li a:hover {
+    color: #f4d03f; 
+}

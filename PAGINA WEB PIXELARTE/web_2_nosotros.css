@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333; 
+}
+.seccion-nosotros {
+    padding: 120px 20px 20px 20px; 
+    text-align: center;
+    background-color: #fff; 
+}
+.titulo-nosotros {
+    font-size: 3em; 
+    margin-bottom: 20px;
+    color: #333;
+}
+.descripcion-nosotros {
+    margin-bottom: 30px;
+    font-size: 1.4em; 
+    color: #555;
+}
+.contenedor-nosotros {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.tarjeta-nosotros {
+    background-color: #fff; 
+    border: 1px solid #ddd; 
+    border-radius: 15px; 
+    padding: 25px;
+    width: 700px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    text-align: left;
+}
+.tarjeta-nosotros.grande {
+    width: 85%; 
+    max-width: none;
+    text-align: justify;
+}
+.tarjeta-nosotros h3 {
+    color: #ff007f; 
+    font-size: 1.8em; 
+    margin-bottom: 15px;
+}
+.tarjeta-nosotros p {
+    font-size: 1em;
+    line-height: 1.6;
+    color: #555;
+}
